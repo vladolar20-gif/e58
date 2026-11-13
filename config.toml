@@ -1,0 +1,2 @@
+[functions.log-sanction]
+verify_jwt = false
