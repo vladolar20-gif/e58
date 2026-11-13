@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { BookOpen, Plus, Trash2, Loader2, X, Pencil, Save } from 'lucide-react';
+import { BookOpen, Plus, Trash2, Loader as Loader2, X, Pencil, Save } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth, isManager } from '@/lib/auth';
 import type { Regulation } from '@/lib/types';

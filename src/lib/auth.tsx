@@ -121,7 +121,7 @@ export function canViewLogs(profile: StaffProfile | null): boolean {
 }
 
 export function canManageRanks(profile: StaffProfile | null): boolean {
-  return hasRank(profile, 'manager staff');
+  return hasRank(profile, 'manager_staff');
 }
 
 export function canViewAllShifts(profile: StaffProfile | null): boolean {

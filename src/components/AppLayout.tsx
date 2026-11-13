@@ -1,22 +1,5 @@
 import { type ReactNode } from 'react';
-import {
-  LayoutDashboard,
-  Clock,
-  Gavel,
-  AlertTriangle,
-  BookOpen,
-  ScrollText,
-  Users,
-  Megaphone,
-  CalendarOff,
-  UserCog,
-  Settings,
-  User,
-  Shield,
-  LogOut,
-  Scale,
-  KeyRound,
-} from 'lucide-react';
+import { LayoutDashboard, Clock, Gavel, TriangleAlert as AlertTriangle, BookOpen, ScrollText, Users, Megaphone, CalendarOff, UserCog, Settings, User, Shield, LogOut, Scale, KeyRound } from 'lucide-react';
 import { useAuth, hasRank, canViewLogs, canManageAccounts } from '@/lib/auth';
 import {
   RANK_LABELS,

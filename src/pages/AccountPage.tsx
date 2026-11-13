@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { User, Save, Check, Palette, Volume2, Info, Loader2 } from 'lucide-react';
+import { User, Save, Check, Palette, Volume2, Info, Loader as Loader2 } from 'lucide-react';
 import { useAuth } from '@/lib/auth';
 import { supabase } from '@/lib/supabase';
 import { RANK_LABELS, RANK_COLORS } from '@/lib/types';

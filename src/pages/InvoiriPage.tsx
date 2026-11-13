@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { CalendarOff, Loader2, Plus, X, Check, XCircle, Clock as ClockIcon } from 'lucide-react';
+import { CalendarOff, Loader as Loader2, Plus, X, Check, Circle as XCircle, Clock as ClockIcon } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth, isSupervisorOrAbove } from '@/lib/auth';
 import type { Invoire } from '@/lib/types';

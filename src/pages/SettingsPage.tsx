@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Settings, Key, Plus, Trash2, Loader2, X, Check, Copy, Lock } from 'lucide-react';
+import { Settings, Key, Plus, Trash2, Loader as Loader2, X, Check, Copy, Lock } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth, isManager } from '@/lib/auth';
 import {

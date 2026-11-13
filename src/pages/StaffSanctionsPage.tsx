@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { UserCog, Plus, Trash2, Loader2, X, Search } from 'lucide-react';
+import { UserCog, Plus, Trash2, Loader as Loader2, X, Search } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth } from '@/lib/auth';
 import { sendDiscordWebhook, DISCORD_COLORS } from '@/lib/discord';

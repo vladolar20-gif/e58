@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Scale, Plus, Trash2, Loader2, X, Search, Filter, Pencil, Check, X as XIcon, AlertTriangle, BookOpen } from 'lucide-react';
+import { Scale, Plus, Trash2, Loader as Loader2, X, Search, Filter, Pencil, Check, X as XIcon, TriangleAlert as AlertTriangle, BookOpen } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth, isManager } from '@/lib/auth';
 import {

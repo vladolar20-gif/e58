@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { ScrollText, Loader2, Filter } from 'lucide-react';
+import { ScrollText, Loader as Loader2, Filter } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth, canViewLogs } from '@/lib/auth';
 import { RANK_LABELS, type LogEntry } from '@/lib/types';

@@ -1,15 +1,5 @@
 import { useState, useEffect } from 'react';
-import {
-  Clock,
-  Gavel,
-  AlertTriangle,
-  Megaphone,
-  TrendingUp,
-  CalendarOff,
-  Loader2,
-  Play,
-  Square,
-} from 'lucide-react';
+import { Clock, Gavel, TriangleAlert as AlertTriangle, Megaphone, TrendingUp, CalendarOff, Loader as Loader2, Play, Square } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth } from '@/lib/auth';
 import {

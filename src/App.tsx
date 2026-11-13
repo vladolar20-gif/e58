@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Shield, AlertTriangle, UserX, Loader2 } from 'lucide-react';
+import { Shield, TriangleAlert as AlertTriangle, UserX, Loader as Loader2 } from 'lucide-react';
 import { AuthProvider, useAuth } from '@/lib/auth';
 import { LoginScreen, RegisterScreen } from '@/components/AuthScreens';
 import { AppLayout, type Page } from '@/components/AppLayout';

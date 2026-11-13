@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { KeyRound, Loader2, Search, Trash2, Mail, Gamepad2, MessageCircle, X } from 'lucide-react';
+import { KeyRound, Loader as Loader2, Search, Trash2, Mail, Gamepad2, MessageCircle, X } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth, canManageAccounts } from '@/lib/auth';
 import { sendDiscordWebhook, DISCORD_COLORS } from '@/lib/discord';

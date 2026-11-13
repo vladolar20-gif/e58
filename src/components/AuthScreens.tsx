@@ -1,5 +1,5 @@
 import { useState } from 'react';
-import { Shield, Mail, Lock, Eye, EyeOff, Loader2, Gamepad2, MessageCircle } from 'lucide-react';
+import { Shield, Mail, Lock, Eye, EyeOff, Loader as Loader2, Gamepad2, MessageCircle } from 'lucide-react';
 import { useAuth } from '@/lib/auth';
 
 export function LoginScreen({ onSwitchToRegister }: { onSwitchToRegister: () => void }) {

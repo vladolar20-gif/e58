@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Megaphone, Plus, Trash2, Loader2, X, Send } from 'lucide-react';
+import { Megaphone, Plus, Trash2, Loader as Loader2, X, Send } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth, isSupervisorOrAbove } from '@/lib/auth';
 import { sendDiscordWebhook, DISCORD_COLORS } from '@/lib/discord';

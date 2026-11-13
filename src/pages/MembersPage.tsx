@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react';
-import { Users, Loader2, Search, ArrowUp, ArrowDown, UserMinus, UserCheck, History, X } from 'lucide-react';
+import { Users, Loader as Loader2, Search, ArrowUp, ArrowDown, UserMinus, UserCheck, History, X } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth, canManageRanks, canModifyRank } from '@/lib/auth';
 import { sendDiscordWebhook, DISCORD_COLORS } from '@/lib/discord';

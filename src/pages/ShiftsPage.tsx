@@ -1,5 +1,5 @@
 import { useState, useEffect, useMemo } from 'react';
-import { Clock, Loader2, Play, Square, Trash2, RotateCcw, ChevronRight, X } from 'lucide-react';
+import { Clock, Loader as Loader2, Play, Square, Trash2, RotateCcw, ChevronRight, X } from 'lucide-react';
 import { supabase } from '@/lib/supabase';
 import { useAuth, canViewAllShifts } from '@/lib/auth';
 import { sendDiscordWebhook, DISCORD_COLORS } from '@/lib/discord';
